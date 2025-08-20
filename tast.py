@@ -1,15 +1,16 @@
-name = input("enter name")
-age = input("enter age")
-boot_camp = input("enter name boot camp")
-with open(file.txt , w ) as f
-f.write(name)
-f.write(age)
-f.write(boot_camp)
+name = input("Enter name: ")
+age = input("Enter age: ")
+boot_camp_name = input("Enter boot camp name: ")
+with open("file.txt", "w") as f:
+    f.write(name + "\n")
+    f.write(age + "\n")
+    f.write(boot_camp_name + "\n")
+    print("done saved notes")
+    with open("file.txt","r") as f:
+     reads = f.read()
+     print(reads)
+        
 
-
-
-
-# heelo
 
 
 
